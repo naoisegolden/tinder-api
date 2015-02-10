@@ -1,8 +1,11 @@
 # Tinder API
-Really simple API used in the Ironhack Advanced Javascript course.
-Developed with Ruby and Sinatra.
+Really simple API developed with Ruby and Sinatra. CORS enabled.
 
-# API Endpoints
+API can be tested at
+- http://tinder-api.herokuapp.com/people
+- http://tinder-api.herokuapp.com/person/1
+
+## API Endpoints
 
 GET /people
 
@@ -43,15 +46,15 @@ GET /person/1
 }
 ```
 
-# To run the app
+## To run the app
 
     $ bundle install --without production
     $ bundle exec rackup
 
-# Acknowledgments
+## Acknowledgments
 
 Using code by [sklise/sinatra-api-example](https://github.com/sklise/sinatra-api-example) and [sklise/Sinatra-Heroku-Template](https://github.com/sklise/Sinatra-Heroku-Template).
 
-# License
+## License
 
 MIT
