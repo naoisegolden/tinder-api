@@ -33,7 +33,7 @@ DataMapper.auto_migrate!
 # Populate database
 people = [
   [ "Zilla", "female", 24, "Not sure if serios…", "http://xoart.link/200/200/woman/22" ],
-  [ "Nach", "male", 32, "I like pizza", "http://xoart.link/200/200/man/22" ]
+  [ "Nach", "male", 32, "I like pizza", "http://xoart.link/200/200/man/26" ]
 ]
 
 people.each do |name, gender, age, description, avatar|

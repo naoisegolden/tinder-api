@@ -27,7 +27,7 @@ GET /people
     "gender": "male",
     "age": 32,
     "description": "I like pizza",
-    "avatar": "http://xoart.link/200/200/man/22"
+    "avatar": "http://xoart.link/200/200/man/26"
   }
 ]
 ```
