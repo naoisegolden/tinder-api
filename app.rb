@@ -31,9 +31,23 @@ DataMapper.auto_upgrade!
 DataMapper.auto_migrate!
 
 # Populate database
+base_url = "http://tinder-api.herokuapp.com"
 people = [
-  [ "Zilla", "female", 24, "Not sure if serios…", "http://xoart.link/200/200/woman/22" ],
-  [ "Nach", "male", 32, "I like pizza", "http://xoart.link/200/200/man/26" ]
+  ["Admiral Ackbar", "male", 32, "It's a trap!", "#{base_url}/images/admiral-ackbar.jpeg"],
+  ["Admiral Motti", "male", 28, "Looking for a new job...", "#{base_url}/images/admiral-motti.jpeg"],
+  ["Bib Fortuna", "male", 26, "Interested in meeting my new overlord.", "#{base_url}/images/bib-fortuna.jpeg"],
+  ["Chewbacca", "male", 28, "Gnnnnhnggggggrrrhhhhhhhhhhh!", "#{base_url}/images/chewbacca.jpeg"],
+  ["Darth Vader", "male", 38, "Come to the dark side... we have cookies.", "#{base_url}/images/darth-vader.jpeg"],
+  ["Han Solo", "male", 30, "I ain't in this for your revolution, and I'm not in it for you, princess. I expect to be well paid. I'm in it for the money.", "#{base_url}/images/han-solo.jpeg"],
+  ["Jabba The Hutt", "male", 55, "Not sure if hungry, or horny.", "#{base_url}/images/jabba-the-hutt.jpeg"],
+  ["Lando Calrissian", "male", 29, "I am the best that can happen to you, unless I betray you.", "#{base_url}/images/lando-calrissian.jpeg"],
+  ["Luke Skywalker", "male", 27, "I have father issues.", "#{base_url}/images/luke-skywalker.jpeg"],
+  ["Mon Mothma", "female", 29, "I am the leader of the Revolution and yet nobody knows me.", "#{base_url}/images/mon-mothma.jpeg"],
+  ["Padme Amidala", "female", 24, "Some times I get lost in translation.", "#{base_url}/images/padme-amidala.jpeg"],
+  ["Princess Leia", "female", 28, "Do these ensaimadas on my head make me look fat?", "#{base_url}/images/princess-leia.jpeg"],
+  ["Sabe", "female", 27, "Some day I will be queen. I think it is on Mondays.", "#{base_url}/images/sabe.jpeg"],
+  ["Taun We", "female", 45, "I don't need make up.", "#{base_url}/images/taun-we.jpeg"],
+  ["Yoda", "male", 99, "Size matters not. Look at me. Judge me by my size, do you? Hmm?", "#{base_url}/images/yoda.jpeg"]
 ]
 
 people.each do |name, gender, age, description, avatar|
